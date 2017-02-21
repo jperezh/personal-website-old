@@ -1,3 +1,5 @@
 <?php
 
-echo "This is an index\n"; 
+echo "This is an index\n";
+
+echo "<a href='src/portafolio.html'></a>";
