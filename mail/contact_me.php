@@ -10,6 +10,8 @@ if(empty($_POST['name'])  		||
 	return false;
    }
 	
+ini_set("SMTP", "aspmx.l.google.com");
+ini_set("sendmail_from", "jperezh3@gmail.com");
 $name = strip_tags(htmlspecialchars($_POST['name']));
 $email_address = strip_tags(htmlspecialchars($_POST['email']));
 $phone = strip_tags(htmlspecialchars($_POST['phone']));
